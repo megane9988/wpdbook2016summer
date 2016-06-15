@@ -41,7 +41,7 @@ get_header(); ?>
 									<div class="large-12 small-3 columns">
 										<div class="thumbnail">
 										<?php if ( has_post_thumbnail() ) : ?>
-											<?php the_post_thumbnail( 'top-thumb', array( 'class' => 'thumbnail' ) ); ?>
+											<?php the_post_thumbnail( 'top-tumb', array( 'class' => 'thumbnail' ) ); ?>
 										<?php else : ?>
 											<img src="<?php echo get_template_directory_uri(); ?>/assets/img/no_image.gif" alt="" title="" />
 										<?php endif; ?>

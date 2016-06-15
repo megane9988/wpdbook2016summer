@@ -4398,10 +4398,6 @@ li.comment {
   height: 320px;
 }
 
-.newspost:hover {
-  background-color: #eee;
-}
-
 .news-meta {
   padding: 0 5px;
 }

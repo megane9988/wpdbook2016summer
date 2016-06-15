@@ -2,9 +2,9 @@
    Custom
    ========================================================================== */
 
-$primary-color : #efecea;
+$primary-color : #fff4f4;
 $secondary-color : #484848;
-$link-color : #ccc;
+$third-color : #d05252;
 
 .row{
   max-width: 62.5em;
@@ -57,7 +57,7 @@ pre {
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
   position: relative;
   z-index: 1;
-  background-color: $secondary-color;
+  background-color: $third-color;
 }
 #site-navigation.fixed {
   position: fixed;
@@ -127,10 +127,7 @@ li.comment{
     padding: 5px 0;
   }
   .widget-title{
-    border-bottom: 1px solid #c6b688;
-    -webkit-box-shadow: 0 1px 0 #eae2cc;
-    -moz-box-shadow: 0 1px 0 #eae2cc;
-    box-shadow: 0 1px 0 #eae2cc;
+    border-bottom: 1px solid $third-color;
   }
 } 
 
@@ -208,19 +205,19 @@ li.comment{
   color: #fff;
 }
 .navigation-main ul ul a:hover {
-  background-color: #896556;
+  background-color: #484848;
 }
 .navigation-main ul ul li {
-  background-color: #896556; 
+  background-color: #484848; 
 }
 .navigation-main li:hover > a {
-  background-color: #896556; 
+  background-color: #484848; 
 }
 .navigation-main ul ul :hover > a {
-  background-color: #896556;
+  background-color: #484848;
 }
 .navigation-main ul ul a:hover {
-  background-color: $secondary-color;
+  background-color: #636363;
 }
 .navigation-main ul li:hover > ul {
   display: block;
@@ -231,7 +228,7 @@ li.comment{
 
 .site-header{
   .current-menu-item {
-    background-color: #896556;
+    background-color: #484848;
     a{
       color: #FFF;
     }
@@ -262,7 +259,7 @@ font-size: 0.725em;
 }
 .main-small-navigation li {
   list-style: none;
-  border-bottom: 1px solid #c6b688;
+  border-bottom: 1px solid $third-color;
     -webkit-box-shadow: 0 1px 0 #eae2cc;
     -moz-box-shadow: 0 1px 0 #eae2cc;
 }
@@ -282,6 +279,7 @@ font-size: 0.725em;
   .main-small-navigation ul.nav-menu.toggled-on {
     display: block;
     margin: 0;
+    padding-right: 20px;
     a{
       padding: 5px;
       &:hover{
@@ -293,7 +291,7 @@ font-size: 0.725em;
     display: none;
   }
   #site-navigation{
-    background-color: $secondary-color; 
+    background-color: $third-color;
     .genericon-menu{
       color: #FFF; 
     }}
@@ -317,7 +315,7 @@ font-size: 0.725em;
   padding: 10px 0;
   margin: 30px 0;
   h3 {
-    border-bottom: 1px solid #c6b688;
+    border-bottom: 1px solid $third-color;
     box-shadow: 0 1px 0 #eae2cc;
       -webkit-box-shadow: 0 1px 0 #eae2cc;
       -moz-box-shadow: 0 1px 0 #eae2cc;
@@ -342,10 +340,6 @@ font-size: 0.725em;
   font-size:0.875em;  
   height:320px;
 }
-.newspost:hover{
-  background-color: #eee; 
-}
-
 .news-meta{
   padding: 0 5px;
 }
@@ -485,14 +479,14 @@ ul#page_link_menu {
 .menu .menu_set { border-bottom: 1px dashed #C6B688;display:block; overflow:hidden;padding:15px 0; }
 .menu .menu_set .menu_set_txt {  }
 .menu .menu_set .menu_set_txt.has_image { width:78%;float:left; }
-.menu .menu_set .menu_set_txt .price { margin-left:1em;font-size:0.75em;color:#5F2F08;float:right;border:1px solid #C6B688; padding:1px 5px; border-radius: 3px; }
+.menu .menu_set .menu_set_txt .price { margin-left:1em;font-size:0.75em;color:#5F2F08;float:right;border:1px solid $third-color; padding:1px 5px; border-radius: 3px; }
 .menu .menu_set .menu_set_txt p { margin-bottom:0;font-size:0.857em; }
 .menu .menu_set .menu_set_image { width:20%;max-width:100px; float:right; }
-.menu .menu_set .menu_set_image img { border:1px solid #C6B688;border-radius:5px; }
+.menu .menu_set .menu_set_image img { border:1px solid $third-color;border-radius:5px; }
 
-ul#page_link_menu { border-left:1px solid #C6B688;margin-left:0; }
+ul#page_link_menu { border-left:1px solid $third-color;margin-left:0; }
 ul#page_link_menu li { display:inline; list-style: none; }
-ul#page_link_menu li a { padding:0 20px; border-right:1px solid #C6B688;}
+ul#page_link_menu li a { padding:0 20px; border-right:1px solid $third-color;}
 
 /*Contact Form　全体を囲う　div*/
 .wpcf7 {
