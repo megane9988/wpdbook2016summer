@@ -4282,7 +4282,7 @@ li.comment {
   display: block;
   margin: 10px 0 0 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .site-header .site-logo a {
     margin: 10px auto;
   }
@@ -4325,7 +4325,7 @@ li.comment {
   background-color: #fff4f4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .menu-toggle,
   .main-small-navigation ul.nav-menu.toggled-on {
     display: block;
@@ -4766,7 +4766,7 @@ ul#page_link_menu li a {
   width: 320px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .site-header p {
     margin-bottom: 5px;
   }
